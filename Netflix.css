@@ -1,0 +1,61 @@
+body {
+  background-image: url("netflix.jpg");
+  color: white;
+}
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Bowlby One SC", cursive;
+  letter-spacing: 4px;
+  margin-bottom: 0;
+}
+h1 span {
+  color: red;
+}
+body > p {
+  text-align: center;
+  color: white;
+}
+div {
+  width: 315px;
+  height: auto;
+  padding: 20px 20px 10px;
+  font: 8pt Arial, Helvetica, sans-serif;
+  background-color: black;
+  margin: 0 auto;
+}
+.inputtext input {
+  display: block;
+  width: 300px;
+  height: 30px;
+  margin: 10px 0;
+  padding-left: 7px;
+  font-size: 10px;
+}
+select {
+  display: block;
+  width: 290px;
+  height: 25px;
+  margin: 10px 0;
+  padding-left: 7px;
+  font-size: 10px;
+}
+textarea {
+  display: block;
+  width: 270px;
+  height: 70px;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 10px;
+}
+[type="submit"] {
+  display: block;
+  border-radius: 20px;
+  margin: 12px 0 0px 110px;
+  padding: 8px 35px;
+  color: white;
+  background-color: red;
+}
+[type="hiden"] {
+  display: none;
+}
